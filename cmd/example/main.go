@@ -21,5 +21,6 @@ func main() {
 	if !ok {
 		fmt.Println("key2 not found")
 	}
+	fmt.Println(cache.String())
 	fmt.Println(cache)
 }
